@@ -12,6 +12,9 @@ const submitted = ref(false)
     rounded="xl"
     color="hsl(213, 19%, 18%)"
     class="container pa-6"
+    :class="{
+      'px-4': $vuetify.display.xs,
+    }"
   >
     <v-card-title>
       <v-avatar
